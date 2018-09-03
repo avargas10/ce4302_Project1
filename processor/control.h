@@ -7,7 +7,8 @@
 
 
 class control {
-
+public:
+    control();
 };
 
 
