@@ -8,12 +8,11 @@ mainMemory::mainMemory() {
     cleanMem();
 }
 
-instruction mainMemory::write(instruction pIns) {
+bool mainMemory::write(instruction pIns) {
     std::this_thread::sleep_for (std::chrono::seconds(2));
     mem[pIns._pos]=pIns._data;
-    pIns._done = true;
     //printMem();
-    return pIns;
+    return true;
 }
 
 instruction mainMemory::read(instruction pIns) {

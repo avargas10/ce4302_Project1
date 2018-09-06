@@ -17,7 +17,7 @@ struct instruction{
     int _action = 0;
     int _data = 0;
     int _pos = 0;
-    bool _done = 0;
+    int _done = 0;
     int node = 0;
 };
 
@@ -25,7 +25,7 @@ struct message{
     int action = 0;
     int pos = 0;
     int data = 0;
-    int invalid = 0;
+    int state = 0;
     std::string notifaction;
 
 };
@@ -33,7 +33,7 @@ struct message{
 
 
 struct msi{
-    bool _invalid = 0;
+    int state = 0;
     int _data = 0;
     bool _shared = 0;
     int pos = 0;

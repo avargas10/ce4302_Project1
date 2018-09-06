@@ -16,34 +16,38 @@ cache::cache(int pId) {
 void cache::cleanCache() {
     for (int i = 0; i <SIZE ; ++i) {
         mem[i]._data =0;
-        mem[i]._invalid = 1;
-        mem[i]._shared = 0;
+        mem[i].state = 1;
+        mem[i].pos = i;
     }
 }
 
 bool cache::write(instruction pIns) {
         mem[pIns._pos]._data = pIns._data;
-        pIns._done = true;
+        mem[pIns._pos].state = 2;
+        pIns._done = 2;
         wait();
         sendMessage(pIns);
+        updateCache();
         return true;
 }
 
 void cache::directWrite(instruction pIns) {
     mem[pIns._pos]._data = pIns._data;
-    pIns._done= true;
+    mem[pIns._pos].state = 1;
+    pIns._done= 1;
     sendMessage(pIns);
+    updateCache();
 }
 
 instruction cache::read(instruction pIns) {
-    if(mem[pIns._pos]._invalid){
-        pIns._done = false;
+    if(mem[pIns._pos].state==0){
+        pIns._done = 0;
         sendMessage(pIns);
         //cout<<"Miss Invalid Cache Position"<<endl;
         return pIns;
     }
     else{
-        pIns._done = true;
+        pIns._done = mem[pIns._pos].state;
         pIns._data = mem[pIns._pos]._data;
         sendMessage(pIns);
         wait();
@@ -51,15 +55,31 @@ instruction cache::read(instruction pIns) {
     }
 }
 
-void cache::setInvalid(int pPos) {
-    mem[pPos]._invalid = true;
+void cache::setShared(int pPos ) {
+    if(mem[pPos].state==2){
+        mem[pPos].state= 1;
+        message msg;
+        msg.state = 1;
+         msg.pos = pPos;
+        msg.notifaction = "Shared Position";
+        msg.data = 0;
+        msg.action = 0;
+        writer.writeNofication(msg);
+        updateCache();
+    }
+
+}
+
+void cache::setInvalid(int pPos ) {
+    mem[pPos].state = 0;
     message msg;
-    msg.invalid = true;
+    msg.state = 0;
     msg.pos = pPos;
     msg.notifaction = "Invalid Position";
     msg.data = 0;
     msg.action = 0;
     writer.writeNofication(msg);
+    updateCache();
 }
 
 void cache::wait(){
@@ -77,15 +97,19 @@ void cache::printCache() {
 
 void cache::sendMessage(instruction pIns) {
     message msg;
-    msg.invalid = !pIns._done;
+    msg.state = pIns._done;
     msg.action = pIns._action;
     msg.data = pIns._data;
     msg.pos = pIns._pos;
-    if(msg.invalid){
+
+    if(msg.state==0){
         msg.notifaction= "Reading Miss";
         writer.writeNofication(msg);
+
     }
     writer.writeCache(msg);
+}
 
-
+void cache::updateCache() {
+    writer.updateCache(mem);
 }

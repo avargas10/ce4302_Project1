@@ -14,14 +14,14 @@ bus::bus(mainMemory * pMem,controlBus* pControl, pthread_mutex_t* controlLock) {
 
 
 void bus::writeMem(instruction pIns){
-    if((instruction*)memory->write(pIns)._done){
+    if(memory->write(pIns)){
         msi message;
-        message._invalid = true;
+        message.state = 0;
         message.pos = pIns._pos;
         cout<<"Invalidading"<<endl;
-        //pthread_mutex_lock(mtx);
+        pthread_mutex_lock(mtx);
         control->invalid(pIns);
-        //pthread_mutex_unlock(mtx);
+        pthread_mutex_unlock(mtx);
     }
 }
 
@@ -29,6 +29,10 @@ void bus::writeMem(instruction pIns){
 instruction bus::readMem(instruction pIns) {
     instruction res = memory->read(pIns);
     if(res._done){
+        cout<<"Sharing"<<endl;
+        pthread_mutex_lock(mtx);
+        control->shared(pIns);
+        pthread_mutex_unlock(mtx);
         return  res;
     }
 }
@@ -36,6 +40,6 @@ instruction bus::readMem(instruction pIns) {
 void bus::invalid(msi message) {
     for (int i = 0; i < views.size() ; ++i) {
         views[i]->pos= message.pos;
-        views[i]->_invalid = true;
+        views[i]->state = 0;
     }
 }

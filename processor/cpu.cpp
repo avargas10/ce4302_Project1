@@ -22,11 +22,12 @@ cpu::cpu() {
 
 }
 
-void cpu::start() {
-    for (int i = 0; i < 10; ++i) {
+bool cpu::start() {
+    for (int i = 0; i < 3; ++i) {
         cout<<"Fetching "<<i<<endl;
         fetch();
     }
+    return true;
 
 }
 
@@ -41,6 +42,7 @@ void cpu::fetch() {
     instruction _ins;
     _ins._action = _generator.getTask();
    //_ins._action= 1;
+   _ins.node = _id;
    _ins._pos = _generator.getPos();
     if(_ins._action==1){
        _ins._data =  _generator.getData();

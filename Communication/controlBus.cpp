@@ -39,13 +39,31 @@ pthread_mutex_t* controlBus::getLock() {
 
 
 void controlBus::invalid(instruction pIns)  {
-    cout<<"Get in"<<endl;
     //pthread_mutex_lock(&messageLock);
     for (int i = 0; i <views.size() ; ++i) {
-        views[i]->setInvalid(pIns);
+        if(views[i]->_id!=pIns.node){
+            views[i]->setInvalid(pIns);
+        }
     }
     //pthread_mutex_unlock(&messageLock);
+}
 
 
+void controlBus::getControlOut(invalidador *mmu) {
+    for (int i = 0; i <views.size() ; ++i) {
+        if(mmu->_id==views[i]->_id){
+            views.erase(views.begin()+i);
+            cout<<"Free "<<mmu->_id<<endl;
+        }
+    }
+}
+
+void controlBus::shared(instruction pIns){
+
+    for (int i = 0; i <views.size() ; ++i) {
+        if(views[i]->_id!=pIns.node){
+            views[i]->setShared(pIns);
+        }
+    }
 
 }

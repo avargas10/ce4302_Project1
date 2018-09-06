@@ -13,7 +13,7 @@ class mainMemory {
 
 public:
     mainMemory();
-    instruction write(instruction);
+    bool write(instruction);
     instruction read(instruction);
 private:
     int mem[SIZE];

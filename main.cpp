@@ -5,7 +5,7 @@
 #include "processor/control.cpp"
 
 
-#define threads 2
+#define threads 4
 
 using namespace std;
 

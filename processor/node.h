@@ -22,6 +22,7 @@ private:
     cache _cache;
     cpu _cpu;
     pthread_mutex_t cacheLock;
+    pthread_mutex_t* _mtx;
     control _mmu;
 
 };

@@ -15,6 +15,7 @@ public:
     invalidador();
     invalidador(int);
     virtual void setInvalid(instruction pIns) = 0;
+    virtual void setShared(instruction pIns) = 0;
 };
 
 
@@ -28,9 +29,9 @@ public:
     msi* getPosition(int pId);
 
     void invalid(instruction);
-
+    void shared(instruction);
     pthread_mutex_t* getLock();
-
+    void getControlOut(invalidador*);
 
 private:
     vector <invalidador*> views; // 3. Coupled only to "interface"

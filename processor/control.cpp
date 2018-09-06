@@ -24,3 +24,8 @@ void control::getListener() {
     pthread_mutex_unlock(mtx);
 }
 
+void control::getOut() {
+    pthread_mutex_lock(mtx);
+    communication->getControlOut(this);
+    pthread_mutex_unlock(mtx);
+}

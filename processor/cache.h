@@ -27,6 +27,7 @@ public:
     void directWrite(instruction);
     instruction read(instruction);
     void setInvalid(int);
+    void setShared(int);
 
 private:
     msi mem[SIZE];
@@ -36,6 +37,7 @@ private:
     void sendNotification(instruction,string);
     void cleanCache();
     void printCache();
+    void updateCache();
     void wait();
 };
 

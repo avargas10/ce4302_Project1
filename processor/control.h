@@ -12,10 +12,16 @@ public:
     control();
     control(controlBus*,int,cache*,pthread_mutex_t*,pthread_mutex_t*);
     void setInvalid(instruction pIns)  {
-        cout<<"Called "<<_id<<endl;
+        cout<<"Invalid "<<_id<<endl;
         _cache->setInvalid(pIns._pos);
 
     }
+    void setShared(instruction pIns)  {
+        cout<<"Shared "<<_id<<endl;
+        _cache->setShared(pIns._pos);
+
+    }
+    void getOut();
 
 private:
     cache *_cache;

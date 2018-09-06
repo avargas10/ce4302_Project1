@@ -16,7 +16,7 @@ class cpu {
   public:
     cpu();
     cpu(bus*,int,cache*,pthread_mutex_t*,pthread_mutex_t*);
-    void start();
+    bool start();
     void test();
 
   private:

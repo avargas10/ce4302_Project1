@@ -20,6 +20,8 @@ public:
     void writeCPU(instruction);
     void writeCache(message);
     void writeNofication(message);
+    void updateCache(msi*);
+    void updateMainMem(int*);
 
 private:
     int _id;
@@ -28,6 +30,9 @@ private:
     string generateInstruction(instruction);
     string generateMessage(message);
     string generateNotification(message);
+    string generateMem(int*);
+    string generateCache(msi[]);
+    Json::Value getJson(msi);
 };
 
 
