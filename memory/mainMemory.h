@@ -6,14 +6,19 @@
 #define CE4302_PROJECT1_MAINMEMORY_H
 #define SIZE 16
 
-#include "../Communication/messages.h"
+
+#include "../Tools/fileWriter.h"
+using namespace std;
 class mainMemory {
+
 public:
     mainMemory();
-    bool write(instruction);
+    instruction write(instruction);
     instruction read(instruction);
 private:
     int mem[SIZE];
+    void printMem();
+    void cleanMem();
 };
 
 

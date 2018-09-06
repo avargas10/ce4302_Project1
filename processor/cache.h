@@ -12,18 +12,28 @@
 #include <pthread.h>
 #include <cstring>
 #include <vector>
-#include "../Communication/messages.h"
+#include <mutex>
+#include "../Tools/randomGenerator.h"
+#include "../Tools/fileWriter.h"
+#include "../Communication/bus.h"
+
+
 
 class cache {
 public:
     cache();
     cache(int);
     bool write(instruction);
+    void directWrite(instruction);
     instruction read(instruction);
+    void setInvalid(int);
 
 private:
     msi mem[SIZE];
     int _id;
+    fileWriter writer;
+    void sendMessage(instruction);
+    void sendNotification(instruction,string);
     void cleanCache();
     void printCache();
     void wait();

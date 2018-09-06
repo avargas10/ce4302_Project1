@@ -10,7 +10,7 @@ class randomGenerator {
 public:
     randomGenerator(int);
     randomGenerator();
-    bool getTask();
+    int getTask();
     int getData();
     int getPos();
 

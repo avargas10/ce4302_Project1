@@ -13,9 +13,8 @@ randomGenerator::randomGenerator() {
 
 }
 
-bool randomGenerator::getTask() {
-    int number = generate(0,20000);
-    return number%2==0;
+int randomGenerator::getTask() {
+    return generate(0,3);
 }
 
 int randomGenerator::getData() {

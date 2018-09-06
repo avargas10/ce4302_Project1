@@ -7,19 +7,21 @@
 
 
 
-#include "../Tools/observer.h"
+
 #include "cpu.h"
 #include "control.h"
 
-class node : public Observer{
+class node{
 public:
-    node(bus*,int);
+    node(bus*,controlBus*,int,pthread_mutex_t*,pthread_mutex_t*);
     void start();
-    void update();
+
     //int getId();
 private:
+    void initCacheLock();
     cache _cache;
     cpu _cpu;
+    pthread_mutex_t cacheLock;
     control _mmu;
 
 };

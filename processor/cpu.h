@@ -9,30 +9,32 @@
       // std::this_thread::sleep_for
 
 #include "cache.h"
-#include "../Tools/randomGenerator.h"
+
 using namespace std;
 
 class cpu {
   public:
     cpu();
-    cpu(int,cache*);
-    int _id;
-    int _clock;
-    int *_stages;
-    int _currentStage;
+    cpu(bus*,int,cache*,pthread_mutex_t*,pthread_mutex_t*);
     void start();
     void test();
 
-
   private:
     cache *_cache;
-    instruction _ins;
-    void write();
-    void read();
+    void write(instruction);
+    int _id;
+    fileWriter writer;
+    bus *_model;
+    pthread_mutex_t *mtx;
+    pthread_mutex_t *cacheLock;
+    void read(instruction);
+    void writeMem(instruction);
+    void readMem(instruction);
+    void processing();
     randomGenerator _generator;
     void fetch();
-    void exe();
-    void showInstruction();
+    void exe(instruction);
+    void showInstruction(instruction);
 
 };
 
