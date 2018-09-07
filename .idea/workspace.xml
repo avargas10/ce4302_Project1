@@ -11,30 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ea25e9-a484-410b-9ee9-7f2e40aeb6ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communication/bus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Communication/bus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Communication/controlBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Communication/controlBus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/dataAnalyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/dataAnalyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/fileWriter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/fileWriter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/randomGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/randomGenerator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/randomGenerator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/randomGenerator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Communication/bus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Communication/bus.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Communication/controlBus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Communication/controlBus.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Tools/fileWriter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Tools/fileWriter.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Tools/randomGenerator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Tools/randomGenerator.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/processor/node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/processor/node.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ce4302_Project1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ce4302_Project1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory/mainMemory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/memory/mainMemory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memory/mainMemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/memory/mainMemory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/processor/cache.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/processor/control.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/control.h" beforeDir="false" afterPath="$PROJECT_DIR$/processor/control.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/cpu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/processor/cpu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/processor/cpu.h" beforeDir="false" afterPath="$PROJECT_DIR$/processor/cpu.h" afterDir="false" />
-    </list>
+    <list default="true" id="d4ea25e9-a484-410b-9ee9-7f2e40aeb6ee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tools/JsonCodeDecode.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
@@ -189,7 +166,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/memory/mainMemory.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -270,6 +247,16 @@
               <item name="ce4302_Project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ce4302_Project1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ce4302_Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ce4302_Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ce4302_Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ce4302_Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -342,7 +329,7 @@
       <workItem from="1536298172573" duration="2055000" />
       <workItem from="1536301493641" duration="1270000" />
       <workItem from="1536304182153" duration="14947000" />
-      <workItem from="1536335991839" duration="5888000" />
+      <workItem from="1536335991839" duration="6496000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1534132137748</created>
@@ -369,10 +356,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127015000" />
+    <option name="totallyTimeSpent" value="127623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="993" y="25" width="927" height="1053" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29171395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -586,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory/mainMemory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Communication/messages.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -645,6 +626,13 @@
           <folding>
             <element signature="e#127#144#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memory/mainMemory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
