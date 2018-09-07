@@ -53,7 +53,7 @@ void controlBus::getControlOut(invalidador *mmu) {
     for (int i = 0; i <views.size() ; ++i) {
         if(mmu->_id==views[i]->_id){
             views.erase(views.begin()+i);
-            cout<<"Free "<<mmu->_id<<endl;
+            //cout<<"Free "<<mmu->_id<<endl;
         }
     }
 }

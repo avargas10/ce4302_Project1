@@ -6,11 +6,13 @@
 
 mainMemory::mainMemory() {
     cleanMem();
+    writer= fileWriter();
 }
 
 bool mainMemory::write(instruction pIns) {
     std::this_thread::sleep_for (std::chrono::seconds(2));
     mem[pIns._pos]=pIns._data;
+    writer.updateMainMem(mem);
     //printMem();
     return true;
 }

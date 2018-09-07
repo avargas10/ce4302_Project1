@@ -16,6 +16,7 @@ public:
     bool write(instruction);
     instruction read(instruction);
 private:
+    fileWriter writer;
     int mem[SIZE];
     void printMem();
     void cleanMem();

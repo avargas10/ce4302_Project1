@@ -14,18 +14,18 @@ randomGenerator::randomGenerator() {
 }
 
 int randomGenerator::getTask() {
-    return generate(0,3);
+    return generate(0,3,_id);
 }
 
-int randomGenerator::getData() {
-    return generate(0,20000);
+int randomGenerator::getData(int task) {
+    return generate(0,20000,task);
 }
 
-int randomGenerator::getPos() {
-    return generate(0,15);
+int randomGenerator::getPos(int task) {
+    return generate(0,15,task);
 }
 
-int randomGenerator::generate(int min, int max) {
-    srand(_id*time(NULL));
+int randomGenerator::generate(int min, int max,int task) {
+    srand(task*_id*time(NULL));
     return rand() % max + min;
 }

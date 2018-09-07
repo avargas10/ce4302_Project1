@@ -17,7 +17,7 @@ fileWriter::fileWriter(int pId) {
 void fileWriter::writeCPU(instruction pIns) {
     std::ofstream out;
     string id = std::to_string(_id);
-    out.open(path+"cpu/cpu"+id+".txt", std::ios::app);
+    out.open(path+"node"+id+"/cpu.txt", std::ios::app);
     std::string str = generateInstruction(pIns);
     out << str;
     out.close(); // close the file
@@ -26,7 +26,7 @@ void fileWriter::writeCPU(instruction pIns) {
 void fileWriter::writeCache(message msg) {
     std::ofstream out;
     string id = std::to_string(_id);
-    out.open(path+"cache/cacheActions"+id+".txt", std::ios::app);
+    out.open(path+"node"+id+"/cacheActions.txt", std::ios::app);
     std::string str = generateMessage(msg);
     out << str;
     out.close(); // close the file
@@ -35,7 +35,7 @@ void fileWriter::writeCache(message msg) {
 void fileWriter::writeNofication(message msg) {
     std::ofstream out;
     string id = std::to_string(_id);
-    out.open(path+"notifications/notify"+id+".txt", std::ios::app);
+    out.open(path+"node"+id+"/notify.txt", std::ios::app);
     std::string str = generateNotification(msg)+"\n";
     out << str;
     out.close(); // close the file
@@ -44,8 +44,16 @@ void fileWriter::writeNofication(message msg) {
 void fileWriter::updateCache(msi* cache) {
     std::ofstream out;
     string id = std::to_string(_id);
-    out.open(path+"cache/cache"+id+".txt", std::ios::app);
+    out.open(path+"node"+id+"/cache.txt", std::ios::app);
     std::string str = generateCache(cache);
+    out << str;
+    out.close(); // close the file
+}
+void fileWriter::updateMainMem(int* mem) {
+    std::ofstream out;
+    string id = std::to_string(_id);
+    out.open(path+"node5/memory.txt", std::ios::app);
+    std::string str = generateMem(mem);
     out << str;
     out.close(); // close the file
 }
@@ -98,6 +106,19 @@ string fileWriter::generateCache(msi* cache) {
     Json::Value mem(Json::arrayValue);
     for (int i = 0; i <SIZE; ++i) {
         mem[i] = getJson(cache[i]);
+    }
+    Json::FastWriter fastWriter;
+    std::string output = fastWriter.write(mem);
+    return output;
+}
+
+string fileWriter::generateMem(int *mainMem) {
+    Json::Value mem(Json::arrayValue);
+    for (int i = 0; i <SIZE; ++i) {
+        Json::Value root;
+        root = parser.includeInt(mainMem[i],root,"Data");
+        root = parser.includeInt(i,root,"Position");
+        mem[i]= root;
     }
     Json::FastWriter fastWriter;
     std::string output = fastWriter.write(mem);

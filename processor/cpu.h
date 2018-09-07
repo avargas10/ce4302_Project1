@@ -17,7 +17,6 @@ class cpu {
     cpu();
     cpu(bus*,int,cache*,pthread_mutex_t*,pthread_mutex_t*);
     bool start();
-    void test();
 
   private:
     cache *_cache;

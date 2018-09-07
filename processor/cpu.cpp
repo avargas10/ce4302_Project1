@@ -15,7 +15,6 @@ cpu::cpu(bus* ics,int pid,cache* pCache,pthread_mutex_t* pMtx,pthread_mutex_t* p
     writer = fileWriter(pid);
     cacheLock = pCacheLock;
     mtx = pMtx;
-    cout<<"CPU "<<_id<<" Created"<<endl;
 }
 
 cpu::cpu() {
@@ -23,33 +22,28 @@ cpu::cpu() {
 }
 
 bool cpu::start() {
-    for (int i = 0; i < 3; ++i) {
-        cout<<"Fetching "<<i<<endl;
+    for (int i = 0; i < 100     ; ++i) {
         fetch();
     }
     return true;
 
 }
 
-void cpu::test() {
-    for (int i = 0; i < 100; ++i) {
-        cout<<"I am CPU "<<_id<<endl;
-        std::this_thread::sleep_for (std::chrono::seconds(1));
-    }
-}
 
 void cpu::fetch() {
     instruction _ins;
     _ins._action = _generator.getTask();
-   //_ins._action= 1;
    _ins.node = _id;
-   _ins._pos = _generator.getPos();
+   _ins._pos = _generator.getPos(_ins._action+1);
+   _ins._data=0;
     if(_ins._action==1){
-       _ins._data =  _generator.getData();
+       //_ins._data =  _generator.getData(_ins._action+1);
+       _ins._data = _id;
     }
-    showInstruction(_ins);
+    //showInstruction(_ins);
     writer.writeCPU(_ins);
     exe(_ins);
+
 }
 
 void cpu::exe(instruction _ins) {
@@ -85,9 +79,9 @@ void cpu::read(instruction _ins) {
     cout<<"|CPU "<<_id<<" | -----Reading------|"<<endl;
    /* cout<<"|Pos "<<_ins._pos<<endl;
     cout<<"-----------------------------------"<<endl;*/
-   pthread_mutex_lock(cacheLock);
+   //pthread_mutex_lock(cacheLock);
    bool res = _cache->read(_ins)._done;
-   pthread_mutex_unlock(cacheLock);
+   //pthread_mutex_unlock(cacheLock);
    if(!res){
         readMem(_ins);
     }

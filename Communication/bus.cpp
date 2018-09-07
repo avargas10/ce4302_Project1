@@ -18,7 +18,7 @@ void bus::writeMem(instruction pIns){
         msi message;
         message.state = 0;
         message.pos = pIns._pos;
-        cout<<"Invalidading"<<endl;
+       // cout<<"Invalidading"<<endl;
         pthread_mutex_lock(mtx);
         control->invalid(pIns);
         pthread_mutex_unlock(mtx);
@@ -29,7 +29,7 @@ void bus::writeMem(instruction pIns){
 instruction bus::readMem(instruction pIns) {
     instruction res = memory->read(pIns);
     if(res._done){
-        cout<<"Sharing"<<endl;
+        //cout<<"Sharing"<<endl;
         pthread_mutex_lock(mtx);
         control->shared(pIns);
         pthread_mutex_unlock(mtx);

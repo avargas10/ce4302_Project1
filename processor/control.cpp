@@ -20,7 +20,6 @@ control::control(controlBus* ics,int pid,cache* pCache,pthread_mutex_t* pMtx,pth
 void control::getListener() {
     pthread_mutex_lock(mtx);
     communication->addControl(this);
-    cout<<"_listener received "<<endl;
     pthread_mutex_unlock(mtx);
 }
 

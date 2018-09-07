@@ -11,12 +11,12 @@ public:
     randomGenerator(int);
     randomGenerator();
     int getTask();
-    int getData();
-    int getPos();
+    int getData(int);
+    int getPos(int);
 
 private:
     int _id;
-    int generate(int,int);
+    int generate(int,int,int);
 };
 
 

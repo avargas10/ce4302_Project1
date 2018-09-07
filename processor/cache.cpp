@@ -35,6 +35,7 @@ void cache::directWrite(instruction pIns) {
     mem[pIns._pos]._data = pIns._data;
     mem[pIns._pos].state = 1;
     pIns._done= 1;
+    wait();
     sendMessage(pIns);
     updateCache();
 }
