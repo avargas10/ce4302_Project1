@@ -11,7 +11,10 @@
 #include "cache.h"
 
 using namespace std;
-
+/*
+ * CPU Clase encargada de simular las etapas de un procesador
+ *
+ * */
 class cpu {
   public:
     cpu();
@@ -19,12 +22,12 @@ class cpu {
     bool start();
 
   private:
-    cache *_cache;
+    cache *_cache;              //puntero a cache del nodo
     void write(instruction);
-    int _id;
+    int _id;                    //id del nodo
     fileWriter writer;
-    bus *_model;
-    pthread_mutex_t *mtx;
+    bus *_model;                //puntero al bus del sistema
+    pthread_mutex_t *mtx;       //lock del bus
     pthread_mutex_t *cacheLock;
     void read(instruction);
     void writeMem(instruction);

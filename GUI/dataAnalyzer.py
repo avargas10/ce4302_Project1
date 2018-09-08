@@ -9,6 +9,7 @@ import os
 from threading import Thread
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+import datetime
 
 def lastLine(fileName):
 	with open(fileName, 'r') as f:
@@ -95,7 +96,14 @@ class Handler(FileSystemEventHandler):
 			action = "Writing"
 		elif(action=="2"):
 			action = "Processing"
-
+		elif(action=="3"):
+			action = "Reading Miss"
+		elif(action=="4"):
+			action = "End Processing"
+			datetime.datetime.now()
+			message = action+" at "+str(datetime.datetime.now)
+			self.window.cpu.insert(END,message)
+			return 0
 		position = res["position"]
 		data = res["data"]
 		message = action+" in "+position+" Data: "+data

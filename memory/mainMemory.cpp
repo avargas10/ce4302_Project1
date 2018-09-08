@@ -8,7 +8,9 @@ mainMemory::mainMemory() {
     cleanMem();
     writer= fileWriter();
 }
-
+/*
+ * Escritura de dato en array de memoria
+ * */
 bool mainMemory::write(instruction pIns) {
     std::this_thread::sleep_for (std::chrono::seconds(2));
     mem[pIns._pos]=pIns._data;
@@ -16,7 +18,9 @@ bool mainMemory::write(instruction pIns) {
     //printMem();
     return true;
 }
-
+/*
+ * Lectura de dato en array de memoria
+ * */
 instruction mainMemory::read(instruction pIns) {
     std::this_thread::sleep_for (std::chrono::seconds(2));
     pIns._data = mem[pIns._pos];
@@ -35,6 +39,9 @@ void mainMemory::printMem() {
 
 }
 
+/*
+ * Limpia el array de memoria
+ * */
 void mainMemory::cleanMem() {
     for (int i = 0; i <SIZE ; ++i) {
         mem[i] =0;

@@ -4,28 +4,28 @@
 
 #include "bus.h"
 #include "../memory/mainMemory.cpp"
-
+/*
+ * COnstructor del bus principal
+ * */
 bus::bus(mainMemory * pMem,controlBus* pControl, pthread_mutex_t* controlLock) {
     memory = pMem;
     control = pControl;
     mtx = controlLock;
 }
-
-
-
+/*
+ * Bus envia instruccion a la memoria para escribir un dato
+ * */
 void bus::writeMem(instruction pIns){
     if(memory->write(pIns)){
-        msi message;
-        message.state = 0;
-        message.pos = pIns._pos;
-       // cout<<"Invalidading"<<endl;
         pthread_mutex_lock(mtx);
         control->invalid(pIns);
         pthread_mutex_unlock(mtx);
     }
 }
 
-
+/*
+ * Bus envia instruccion a la memoria para leer un dato
+ * */
 instruction bus::readMem(instruction pIns) {
     instruction res = memory->read(pIns);
     if(res._done){
@@ -37,9 +37,3 @@ instruction bus::readMem(instruction pIns) {
     }
 }
 
-void bus::invalid(msi message) {
-    for (int i = 0; i < views.size() ; ++i) {
-        views[i]->pos= message.pos;
-        views[i]->state = 0;
-    }
-}

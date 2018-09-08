@@ -18,14 +18,6 @@ public:
     bus();
     bus(mainMemory*,controlBus*, pthread_mutex_t*);
 
-    msi* getPosition();
-
-    void invalid(msi);
-
-    int getVal() {
-        return value;
-    }
-
     instruction readMem(instruction pIns);
 
     void writeMem(instruction pIns);

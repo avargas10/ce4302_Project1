@@ -38,10 +38,6 @@ thread
 iostream
 -
 
-/home/kakaroto/CLionProjects/ce4302_Project1/Tools/JsonCodeDecode.cpp
-JsonCodeDecode.h
-/home/kakaroto/CLionProjects/ce4302_Project1/Tools/JsonCodeDecode.h
-
 /home/kakaroto/CLionProjects/ce4302_Project1/Tools/JsonCodeDecode.h
 string
 -
@@ -56,10 +52,6 @@ pthread.h
 jsoncpp/json/json.h
 /home/kakaroto/CLionProjects/ce4302_Project1/Tools/jsoncpp/json/json.h
 
-/home/kakaroto/CLionProjects/ce4302_Project1/Tools/fileWriter.cpp
-fileWriter.h
-/home/kakaroto/CLionProjects/ce4302_Project1/Tools/fileWriter.h
-
 /home/kakaroto/CLionProjects/ce4302_Project1/Tools/fileWriter.h
 ../Communication/messages.h
 /home/kakaroto/CLionProjects/ce4302_Project1/Communication/messages.h
@@ -72,23 +64,7 @@ fstream
 string
 -
 
-/home/kakaroto/CLionProjects/ce4302_Project1/Tools/randomGenerator.cpp
-randomGenerator.h
 /home/kakaroto/CLionProjects/ce4302_Project1/Tools/randomGenerator.h
-ctime
--
-cstdlib
--
-
-/home/kakaroto/CLionProjects/ce4302_Project1/Tools/randomGenerator.h
-
-/home/kakaroto/CLionProjects/ce4302_Project1/main.cpp
-processor/node.h
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/node.h
-processor/cpu.cpp
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/cpu.cpp
-processor/control.cpp
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/control.cpp
 
 /home/kakaroto/CLionProjects/ce4302_Project1/memory/mainMemory.cpp
 mainMemory.h
@@ -97,10 +73,6 @@ mainMemory.h
 /home/kakaroto/CLionProjects/ce4302_Project1/memory/mainMemory.h
 ../Tools/fileWriter.h
 /home/kakaroto/CLionProjects/ce4302_Project1/Tools/fileWriter.h
-
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/cache.cpp
-cache.h
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/cache.h
 
 /home/kakaroto/CLionProjects/ce4302_Project1/processor/cache.h
 chrono
@@ -126,19 +98,9 @@ mutex
 ../Communication/bus.h
 /home/kakaroto/CLionProjects/ce4302_Project1/Communication/bus.h
 
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/control.cpp
-control.h
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/control.h
-
 /home/kakaroto/CLionProjects/ce4302_Project1/processor/control.h
 cache.h
 /home/kakaroto/CLionProjects/ce4302_Project1/processor/cache.h
-
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/cpu.cpp
-cpu.h
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/cpu.h
-cache.cpp
-/home/kakaroto/CLionProjects/ce4302_Project1/processor/cache.cpp
 
 /home/kakaroto/CLionProjects/ce4302_Project1/processor/cpu.h
 cache.h

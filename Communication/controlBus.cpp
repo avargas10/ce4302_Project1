@@ -10,6 +10,10 @@ invalidador::invalidador() {
 invalidador::invalidador(int pId) {
     _id = pId;
 }
+
+/*
+ * Constructor del bus de control
+ * */
 controlBus::controlBus(pthread_mutex_t* pMtx) {
     mtx  = pMtx;
     initLock();
@@ -24,6 +28,9 @@ void controlBus::initLock() {
     }
 }
 
+/*
+ * Se agrega un control a escuchar el bus de control
+ * */
 void controlBus::addControl(invalidador *mmu) {
 
     views.push_back(mmu);
@@ -32,12 +39,13 @@ void controlBus::addControl(invalidador *mmu) {
 }
 
 
-
 pthread_mutex_t* controlBus::getLock() {
     return &messageLock;
 }
 
-
+/*
+ * Se invalida una posicion de memoria cache y los controladores escuchan
+ * */
 void controlBus::invalid(instruction pIns)  {
     //pthread_mutex_lock(&messageLock);
     for (int i = 0; i <views.size() ; ++i) {
@@ -48,7 +56,9 @@ void controlBus::invalid(instruction pIns)  {
     //pthread_mutex_unlock(&messageLock);
 }
 
-
+/*
+* se desconecta un control del bus
+* */
 void controlBus::getControlOut(invalidador *mmu) {
     for (int i = 0; i <views.size() ; ++i) {
         if(mmu->_id==views[i]->_id){
@@ -58,6 +68,9 @@ void controlBus::getControlOut(invalidador *mmu) {
     }
 }
 
+/*
+* Se comparte una posicion de memoria cache y los controladores escuchan
+* */
 void controlBus::shared(instruction pIns){
 
     for (int i = 0; i <views.size() ; ++i) {

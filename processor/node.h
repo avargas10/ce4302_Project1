@@ -19,11 +19,12 @@ public:
     //int getId();
 private:
     void initCacheLock();
-    cache _cache;
-    cpu _cpu;
+    cache _cache;       //cache del nodo #n
+    cpu _cpu;           //cpu del nodo #n
+    control _mmu;       //control del nodo #n
     pthread_mutex_t cacheLock;
     pthread_mutex_t* _mtx;
-    control _mmu;
+
 
 };
 

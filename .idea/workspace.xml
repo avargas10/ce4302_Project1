@@ -11,7 +11,46 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ea25e9-a484-410b-9ee9-7f2e40aeb6ee" name="Default Changelist" comment="" />
+    <list default="true" id="d4ea25e9-a484-410b-9ee9-7f2e40aeb6ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Communication/bus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Communication/bus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Communication/bus.h" beforeDir="false" afterPath="$PROJECT_DIR$/Communication/bus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Communication/controlBus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Communication/controlBus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node1/cache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node1/cache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node1/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node1/cpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node1/notify.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node1/notify.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node2/cache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node2/cache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node2/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node2/cpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node2/notify.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node2/notify.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node3/cache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node3/cache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node3/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node3/cpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node3/notify.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node3/notify.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node4/cache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node4/cache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node4/cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node4/cpu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node4/notify.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node4/notify.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/node5/memory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/node5/memory.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/dataAnalyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/dataAnalyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/Communication/bus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/Communication/bus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/processor/node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/ce4302_Project1.dir/processor/node.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ce4302_Project1" beforeDir="false" afterPath="$PROJECT_DIR$/build/ce4302_Project1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Communication/bus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Communication/bus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Tools/fileWriter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/Tools/fileWriter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/processor/node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ce4302_Project1.dir/processor/node.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ce4302_Project1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ce4302_Project1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory/mainMemory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/memory/mainMemory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/cache.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/processor/cache.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/control.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/processor/control.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/control.h" beforeDir="false" afterPath="$PROJECT_DIR$/processor/control.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/cpu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/processor/cpu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/cpu.h" beforeDir="false" afterPath="$PROJECT_DIR$/processor/cpu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/processor/node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/node.h" beforeDir="false" afterPath="$PROJECT_DIR$/processor/node.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +74,19 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ce4302_Project1 (disassembly)" value="6" />
-          <entry key="cpp" value="183" />
-          <entry key="h" value="200" />
+          <entry key="cpp" value="201" />
+          <entry key="h" value="205" />
+          <entry key="html" value="1" />
           <entry key="py" value="1" />
+          <entry key="sh" value="1" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
@@ -52,15 +94,17 @@
         <counts>
           <entry key="CMakeLists.txt" value="7" />
           <entry key="Disassembly" value="6" />
-          <entry key="ObjectiveC" value="383" />
+          <entry key="HTML" value="1" />
+          <entry key="ObjectiveC" value="406" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="11095" />
-          <entry key="h" value="5904" />
+          <entry key="cpp" value="13192" />
+          <entry key="h" value="6259" />
           <entry key="hpp" value="1" />
           <entry key="txt" value="67" />
         </counts>
@@ -68,7 +112,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="45" />
-          <entry key="ObjectiveC" value="17000" />
+          <entry key="ObjectiveC" value="19452" />
           <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
@@ -77,102 +121,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Communication/controlBus.h">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tools/fileWriter.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="345">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#118#156#0" expanded="true" />
+                <element signature="e#1#28#0" expanded="true" />
+                <element signature="e#249#448#1" />
+                <element signature="e#452#721#0" />
+                <element signature="e#723#1864#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tools/fileWriter.cpp">
+        <entry file="file://$PROJECT_DIR$/processor/node.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="300">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tools/JsonCodeDecode.h">
+        <entry file="file://$PROJECT_DIR$/Communication/controlBus.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="-98">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
-                <element signature="e#127#144#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tools/randomGenerator.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Communication/bus.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Communication/messages.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/cpu.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/cache.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-              <folding>
-                <element signature="e#123#140#0" expanded="true" />
+                <element signature="e#67#98#0" />
+                <element signature="e#100#152#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/memory/mainMemory.h">
+        <entry file="file://$PROJECT_DIR$/Communication/bus.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="105">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="e#43#59#0" expanded="true" />
+                <element signature="e#287#530#0" />
+                <element signature="e#532#863#0" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainGUI.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -196,29 +197,29 @@
         <option value="$PROJECT_DIR$/Tools/observer.hpp" />
         <option value="$PROJECT_DIR$/Tools/observer.cpp" />
         <option value="$PROJECT_DIR$/Tools/observer.h" />
-        <option value="$PROJECT_DIR$/Communication/bus.h" />
         <option value="$PROJECT_DIR$/Tools/JsonCodeDecode.cpp" />
         <option value="$PROJECT_DIR$/Tools/JsonCodeDecode.h" />
         <option value="$PROJECT_DIR$/Communication/messages.h" />
         <option value="$PROJECT_DIR$/Communication/controlBus.h" />
-        <option value="$PROJECT_DIR$/processor/node.h" />
-        <option value="$PROJECT_DIR$/processor/node.cpp" />
         <option value="$PROJECT_DIR$/processor/cache.h" />
-        <option value="$PROJECT_DIR$/Communication/controlBus.cpp" />
-        <option value="$PROJECT_DIR$/Communication/bus.cpp" />
         <option value="$PROJECT_DIR$/Tools/randomGenerator.h" />
         <option value="$PROJECT_DIR$/Tools/randomGenerator.cpp" />
         <option value="$PROJECT_DIR$/memory/mainMemory.h" />
         <option value="$PROJECT_DIR$/Tools/fileWriter.cpp" />
-        <option value="$PROJECT_DIR$/memory/mainMemory.cpp" />
-        <option value="$PROJECT_DIR$/processor/cpu.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/processor/control.cpp" />
-        <option value="$PROJECT_DIR$/processor/cpu.cpp" />
-        <option value="$PROJECT_DIR$/processor/control.h" />
-        <option value="$PROJECT_DIR$/processor/cache.cpp" />
         <option value="$PROJECT_DIR$/Tools/fileWriter.h" />
+        <option value="$PROJECT_DIR$/processor/cpu.h" />
+        <option value="$PROJECT_DIR$/processor/cpu.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/processor/node.h" />
+        <option value="$PROJECT_DIR$/processor/cache.cpp" />
+        <option value="$PROJECT_DIR$/processor/control.h" />
+        <option value="$PROJECT_DIR$/processor/control.cpp" />
+        <option value="$PROJECT_DIR$/Communication/bus.h" />
+        <option value="$PROJECT_DIR$/Communication/controlBus.cpp" />
+        <option value="$PROJECT_DIR$/Communication/bus.cpp" />
+        <option value="$PROJECT_DIR$/memory/mainMemory.cpp" />
+        <option value="$PROJECT_DIR$/processor/node.cpp" />
       </list>
     </option>
   </component>
@@ -228,7 +229,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="993" />
     <option name="y" value="25" />
     <option name="width" value="927" />
@@ -250,12 +251,12 @@
             <path>
               <item name="ce4302_Project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ce4302_Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="memory" type="462c0819:PsiDirectoryNode" />
+              <item name="Communication" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ce4302_Project1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ce4302_Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="processor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +330,8 @@
       <workItem from="1536298172573" duration="2055000" />
       <workItem from="1536301493641" duration="1270000" />
       <workItem from="1536304182153" duration="14947000" />
-      <workItem from="1536335991839" duration="6496000" />
+      <workItem from="1536335991839" duration="9087000" />
+      <workItem from="1536363869625" duration="4668000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1534132137748</created>
@@ -356,26 +358,26 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127623000" />
+    <option name="totallyTimeSpent" value="134882000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="25" width="927" height="1053" extended-state="4" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29171395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1438849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.3802497" visible="true" weight="0.28756756" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.37908134" visible="true" weight="0.28756756" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48422801" weight="0.39891893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.36413947" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.36303264" weight="0.32972974" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32974717" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.61975026" side_tool="true" visible="true" weight="0.2881907" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.62091863" side_tool="true" weight="0.28756756" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.4991708" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -439,27 +441,10 @@
     <entry file="file://$PROJECT_DIR$/Tools/jsonCreator.h" />
     <entry file="file://$PROJECT_DIR$/Tools/observer.cpp" />
     <entry file="file://$PROJECT_DIR$/Tools/observer.h" />
-    <entry file="file://$PROJECT_DIR$/Tools/JsonCodeDecode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tools/randomGenerator.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#1#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,97 +455,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/node.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GUI/dataAnalyzer.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/controlBus.cpp">
+    <entry file="file://$PROJECT_DIR$/Communication/controlBus.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="e#117#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/JsonCodeDecode.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/JsonCodeDecode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/cpu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#43#59#0" expanded="true" />
-            <element signature="e#442#457#0" />
-            <element signature="e#418#521#0" />
-            <element signature="e#758#1063#0" />
-            <element signature="e#1065#1313#0" />
-            <element signature="e#1315#1577#0" />
-            <element signature="e#1579#1712#0" />
-            <element signature="e#1714#2058#0" />
-            <element signature="e#2060#2248#0" />
-            <element signature="e#2396#2612#0" />
+            <element signature="e#127#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/bus.cpp">
+    <entry file="file://$PROJECT_DIR$/Tools/randomGenerator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#43#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/control.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/control.h">
+    <entry file="file://$PROJECT_DIR$/Communication/messages.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/cache.cpp">
+    <entry file="file://$PROJECT_DIR$/memory/mainMemory.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/fileWriter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
-            <element signature="e#1141#1460#0" />
+            <element signature="e#118#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory/mainMemory.cpp">
+    <entry file="file://$PROJECT_DIR$/Tools/fileWriter.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/node.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="e#109#125#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="367">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/cpu.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="465">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#109#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -574,65 +550,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/messages.h">
+    <entry file="file://$PROJECT_DIR$/processor/cpu.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#43#59#0" expanded="true" />
+            <element signature="e#138#399#0" />
+            <element signature="e#401#416#0" />
+            <element signature="e#417#588#0" />
+            <element signature="e#703#978#0" />
+            <element signature="e#980#1228#0" />
+            <element signature="e#1230#1371#0" />
+            <element signature="e#1373#1506#0" />
+            <element signature="e#1508#1812#0" />
+            <element signature="e#1814#2002#0" />
+            <element signature="e#2004#2150#0" />
+            <element signature="e#2215#2431#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Documentación/diagramClass.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/control.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="81" selection-start-line="22" selection-start-column="81" selection-end-line="22" selection-end-column="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Communication/bus.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Communication/controlBus.h">
+    <entry file="file://$PROJECT_DIR$/processor/control.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/fileWriter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#118#156#0" expanded="true" />
+            <element signature="e#103#330#0" />
+            <element signature="e#328#456#0" />
+            <element signature="e#474#600#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/fileWriter.cpp">
+    <entry file="file://$PROJECT_DIR$/processor/cache.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/randomGenerator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/JsonCodeDecode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#127#144#0" expanded="true" />
+            <element signature="e#83#119#0" />
+            <element signature="e#120#208#0" />
+            <element signature="e#210#356#0" />
+            <element signature="e#358#587#0" />
+            <element signature="e#589#778#0" />
+            <element signature="e#780#1159#0" />
+            <element signature="e#1161#1480#0" />
+            <element signature="e#1482#1732#0" />
+            <element signature="e#1734#1834#0" />
+            <element signature="e#1836#2075#0" />
+            <element signature="e#2077#2386#0" />
+            <element signature="e#2744#2807#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory/mainMemory.h">
+    <entry file="file://$PROJECT_DIR$/memory/mainMemory.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#68#138#0" />
+            <element signature="e#139#389#0" />
+            <element signature="e#390#638#0" />
+            <element signature="e#641#888#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainGUI.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#1#28#0" expanded="true" />
+            <element signature="e#249#448#1" />
+            <element signature="e#452#721#0" />
+            <element signature="e#723#1864#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Communication/controlBus.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#67#98#0" />
+            <element signature="e#100#152#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Communication/bus.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#43#59#0" expanded="true" />
+            <element signature="e#287#530#0" />
+            <element signature="e#532#863#0" />
+          </folding>
         </state>
       </provider>
     </entry>

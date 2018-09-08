@@ -328,3 +328,291 @@
 
 {"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
 
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"12","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"12","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"2","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"14","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"5","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"0","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"14","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"12","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"14","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"0","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"8","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"3","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"3","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"12","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"0","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"6","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"8","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"5","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"3","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"11","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"1","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"11","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"12","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"3","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"6","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"8","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"9","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"2","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"9","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"9","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"3","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"3","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"11","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"0","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"0","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"8","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"2","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"7","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"6","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"0","state":"1"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"3","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"2","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"14","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"1","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"8","state":"1"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"9","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"12","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"11","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"11","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"8","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Shared Position","action":"0","data":"0","node":"3","position":"9","state":"1"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"8","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"5","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"11","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"2","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"14","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"9","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"14","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"2","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"0","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"1","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"9","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"10","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"8","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"12","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"13","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"6","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"9","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"7","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"0","state":"0"}
+
+{"Message":"Invalid Position","action":"0","data":"0","node":"3","position":"4","state":"0"}
+

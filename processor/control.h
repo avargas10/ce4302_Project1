@@ -11,11 +11,17 @@ class control: public invalidador{
 public:
     control();
     control(controlBus*,int,cache*,pthread_mutex_t*,pthread_mutex_t*);
+    /*
+     * Implementa el metodo de invalidador donde se monitorea la posicion a invalidar
+     * */
     void setInvalid(instruction pIns)  {
        // cout<<"Invalid "<<_id<<endl;
         _cache->setInvalid(pIns._pos);
 
     }
+    /*
+ * Implementa el metodo de invalidador donde se monitorea la posicion a compartir
+ * */
     void setShared(instruction pIns)  {
         //cout<<"Shared "<<_id<<endl;
         _cache->setShared(pIns._pos);

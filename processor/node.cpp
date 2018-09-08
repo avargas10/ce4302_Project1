@@ -4,7 +4,12 @@
 
 #include "node.h"
 
-
+/*
+ * Consctructor inicializa las insntacias de
+ * cache
+ * cpu
+ * control
+ * */
 node::node(bus *ics,controlBus* icsC,int pId,pthread_mutex_t* mtx,pthread_mutex_t* controlMtx){
     initCacheLock();
     _mtx= mtx;
@@ -13,7 +18,7 @@ node::node(bus *ics,controlBus* icsC,int pId,pthread_mutex_t* mtx,pthread_mutex_
     _mmu = control(icsC,pId,&_cache,controlMtx,&cacheLock);
     icsC->addControl(&_mmu);
 
-    //cout<<"Node "<<pId<<" Created"<<endl;
+    cout<<"Node "<<pId<<" Created"<<endl;
 
 }
 
@@ -24,6 +29,10 @@ void node::initCacheLock() {
         return ;
     }
 }
+
+/*
+ * Inicializa el proceso de escritura del cpu
+ * */
 void node::start() {
    if(_cpu.start()){
        _mmu.getOut();
